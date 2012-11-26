@@ -31,11 +31,11 @@ public class ListGenImpl<T> implements ListGen<T> {
 	}	
 	
 	public void print() {
-		do { System.out.println(this.head.getValue());
-			//this.head = head.getNext();
+		/**do { System.out.println(this.head.getValue());
+			this.head = head.getNext();
 			}
 			while (head.getNext() !=null);
 	}		
-	
+	*/
 }	
 		
